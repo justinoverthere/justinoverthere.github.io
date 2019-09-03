@@ -2,6 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+/*formats the navigation bar font, padding, weight*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -19,6 +20,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* header size and font*/
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -34,12 +36,13 @@ h3{
     font-size: em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+/* paragraph font size and color*/
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: black;
-    
+    color: black;  
 }
+/* formats the footer at the bottom of the page*/
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -53,7 +56,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
+/* formats the main headers to have padding, text center, text color, background color */
 header {
   background-color: maroon;
   padding: 10px;
